@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(194, 189, 189);
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  
+}
+
+#logo {
+  padding-left: 20px;
+  vertical-align: middle;
+  width: 50px;
+}
+
+#titolo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 80px;
+  font-size: 50px;
+  vertical-align: middle;
+}
+
+#testa {
+  background-color: rgb(255, 255, 255);
+  width: 75%;
+  height: 50px;
+  margin-left: 12%;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+#task {
+  background-color: rgb(71, 173, 241);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  border: 1px;
+  padding: 6px 6px;
+  border-radius: 5px;
+  margin-left: 70px;
+  margin-top: 10px;
+  }
+
+#section {
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(196, 190, 190);
+  border-spacing: 3px;
+  border-color:  rgb(196, 190, 190) ;
+  padding: 4px 4px;
+  border-radius: 5px;
+}
+
+#corpo {
+  background-color: rgb(255, 255, 255);
+  width: 75%;
+  margin-left: 12%;
+  margin-top: 3px;
+  border-radius: 5px;
+  height: 600px;
+}
+
+h1, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 70px;
+}
+
+h1 {
+  padding-top: 20px;
+  font-weight: bolder;
+  font-size: 25px;
+  text-decoration: solid;
+  padding-bottom: 5px;
+}
+
+h2 {
+  display: inline-block;
+  padding-bottom: 15px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.evidenziato {
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+}
+
+#blu {
+  background-color: rgb(69, 171, 234);
+}
+
+#viola {
+  background-color: rgb(156, 114, 228);
+}
+
+#verdechiaro {
+  background-color: rgb(100, 192, 169);
+}
+
+#arancione {
+  background-color: rgb(242, 158, 51);
+}
+
+#fucsia {
+  background-color: rgb(216, 99, 161);
+}
+
+#verde {
+  background-color: rgb(176, 201, 38);
+}
+
+.check {
+  border: 1px solid rgb(105, 194, 172);
+  border-radius: 50%;
+  color: rgb(105, 194, 172);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+
+.cross {
+  border: 1px solid rgb(235, 80, 71);
+  border-radius: 50%;
+  color: rgb(235, 80, 71);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+
+/*triangoli*/
+#corpo h1::before {
+  content: '\25be';
+  font-size: 30px;
+  vertical-align: middle;
+}
